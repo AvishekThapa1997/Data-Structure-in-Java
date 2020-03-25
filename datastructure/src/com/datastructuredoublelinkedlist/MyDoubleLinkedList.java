@@ -1,7 +1,6 @@
 package com.datastructuredoublelinkedlist;
 //Adding to last and first can be easy  by declaring global nodes variable which will always stored the address of first and last node
 public class MyDoubleLinkedList<E> {
-private Node<E> head;
 private Node<E> first_node;
 private Node<E> last_node;
 private int size;
